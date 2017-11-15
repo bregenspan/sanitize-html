@@ -1,4 +1,4 @@
-var htmlparser = require('htmlparser2');
+var htmlparser = require('htmlparser2-without-node-native');
 var extend = require('xtend');
 var quoteRegexp = require('lodash.escaperegexp');
 var srcset = require('srcset');
